@@ -1,0 +1,27 @@
+{
+  "name": "object-backup-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --all",
+    "synth": "cdk synth"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.10.2",
+    "aws-cdk": "^2.179.0",
+    "esbuild": "^0.25.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.750.0",
+    "@aws-sdk/client-s3": "^3.750.0",
+    "@aws-sdk/lib-dynamodb": "^3.750.0",
+    "aws-cdk-lib": "^2.179.0",
+    "constructs": "^10.4.2"
+  }
+}
